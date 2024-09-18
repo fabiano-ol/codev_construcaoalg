@@ -1,0 +1,28 @@
+Trocos
+3
+O problema dos trocos consiste em, dado um determinado conjunto de 
+moedas e um valor, retornar as diferentes possibilidades 
+deste valor ser entregue considerando as moedas disponíveis.
+
+Por exemplo, suponha que tenhamos moedas de 1 centavo e moedas de
+5 centavos. Se o troco a ser dado é de 12 centavmos, há exatamente
+3 maneiras de se dar o troco:
+  
+  1+1+1+1+1+1+1+1+1+1+1+1 = 12
+  5+1+1+1+1+1+1+1 = 12
+  5+5+1+1 = 12
+  
+  Portanto, há 3 maneiras diferentes de dar o troco.
+  
+Faça um algoritmo de programação dinâmica que resolva o problema
+dos trocos. Considere que a entrada consiste de um inteiro T, o qual
+representa o troco total a ser dado, um inteiro N e um vetor 
+M[1..N] que representa o conjunto de valores das moedas que compõe 
+o troco total.
+
+Ex.: 
+Entrada:                          Saída:
+T=11, N=4, M=[1,5,10,25]          4
+T=4,  N=3, M=[1,2,3]              4
+T=4,  N=4, M=[1,2,3,4]            5
+

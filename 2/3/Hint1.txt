@@ -1,0 +1,15 @@
+- Seja f(i,n) a função que correponde ao tempo de chegada do chassi
+  à estação s_in
+
+- Considere que sejam dados os valores x e y correspondendo ao
+  tempos até as estações s_0(n-1) e s_1(n-1), respectivamente. 
+  A recursão pode lhe ajudar a obter tais x e y.
+
+- Como obter f(0,n) e f(1,n) a partir de x e y? 
+
+- Ao obter a recursão acima, atente para o fato de haver subproblemas
+  repetidos; se for o caso, implemente a técnica de programação dinâmica.
+
+- Por fim, como o tempo mínimo de montagem do chassi pode ser obtido
+  a partir dos tempos f(0,n-1) e f(1,n-1)?
+

@@ -1,0 +1,35 @@
+Linha de Montagem
+3
+O problema da linha de montagem consiste em uma fábrica que possui
+duas linhas de montagem, cada uma com n estações. Sejam s_11,...,s_1n
+as estações da primeira linha, e s_21,...,s_2n as estações da segunda.
+
+Um chassi, para ser montado, precisa atravessar da primeira estação 
+à última na sequência. Porém, não precisa usar as estações sempre
+da mesma linha. Por exemplo, para n=5, um caminho possível do chassi é
+
+s_11, s_22, s_23, s_14, s_25
+
+É necessário determinar o tempo mínimo de montagem de um chassi 
+considerando o possível uso das duas linhas de montagem. A cada estação
+s_ij, estão associados um tempo de processamento e um tempo 
+de transferência do chassi dessa estação para a próxima estação da
+outra linha, isto é, de s_ij para s_(3-i)(j+1). O tempo de transferência 
+de uma estação para a próxima na mesma linha é considerado nulo. 
+
+Faça um algoritmo de programação dinâmica que resolva o problema 
+da linha de montagem. Considere que a entrada consiste de um inteiro 
+n, uma matriz t[1..2][1..n], onde t[i][j] representa o tempo de 
+processamento na estação s_ij, e uma matriz e[1..2][1..n-1],
+onde e[i][j] representa o tempo de troca do chassi da estação s_ij
+para a estação s_(3-i)(j+1). [O(n)]
+
+Ex.: 
+
+Entrada:                          Saída:
+n = 3                             8
+t = [[3 5 1],
+     [2 1 7]]
+e = [[4 1],
+     [3 4]]
+
