@@ -1,0 +1,18 @@
+- Seja TrocoMin(t, M, n) o número mínimo de moedas, cada uma tendo um valor
+  pertencente ao conjunto {M[1],...,M[n]}, para dar o troco (quantia) t. Esse
+  tal número é chamado de troco mínimo.
+
+- Considere que todos os trocos mínimos, para qualquer troco menor que t,
+  e com qualquer limite máximo de moedas sejam sabidos (a recursão pode lhe 
+  ajudar a obter tais valores).
+
+- Considere o caso em que, para formar um troco mínimo de t, a maior moeda 
+  utilizada seja a moeda M[i]. Neste caso, qual o menor número de moedas, em 
+  função de algum troco mínimo para uma quantia menor que t?
+  
+ 
+- Como não sabemos qual o maior valor de moeda utilizada no troco mínimo de t, 
+  devemos testar todas as possibilidades e determinar o mínimo destas expressões. 
+
+- Ao obter a recursão acima, atente para o fato de haver subproblemas
+  repetidos; se for o caso, implemente a técnica de programação dinâmica.
