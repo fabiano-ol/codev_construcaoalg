@@ -1,0 +1,16 @@
+- Seja JogoPalito(n,j) a função que retorna qual deve ser a quantidade 
+  de palitos da estratégia vencedora do jogador j havendo n palitos
+  na mesa.
+
+- Considere que sejam dados os valores 
+  x1 = JogoPalito(n-1,3-j),
+  x2 = JogoPalito(n-2,3-j),
+  x3 = JogoPalito(n-3,3-j),
+  correspondendo às melhores jogadas que o outro jogador (3-j) possui
+  havendo, respectivamente, n-1, n-2 ou n-3 palitos. A recursão pode lhe 
+  ajudar a obter tais valores x1, x2 e x3.
+
+- Como obter o valor de JogoPalito(n, j) a partir dos valores x1, x2 e x3?
+
+- Ao obter a recursão acima, atente para o fato de haver subproblemas
+  repetidos; se for o caso, implemente a técnica de programação dinâmica.

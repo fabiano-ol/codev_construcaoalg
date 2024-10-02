@@ -1,0 +1,19 @@
+Jogo do palito
+3
+O Jogo do Palito consiste em uma partida na qual dois participantes se alternam 
+retirando 1, 2 ou 3 palitos de um conjunto inicial de n palitos. O jogador que 
+pegar o último palito ganha a partida. Faça um algoritmo de programação dinâmica 
+que jogue otimamente o Jogo do Palito, isto é: dado o número atual de palitos
+na mesa, decida quantos palitos remover. Considere que a entrada consiste de um 
+inteiro n, representando o número inicial de palitos. A saída deve ser o número de 
+palitos que o primeiro jogador deve retirar para garantir a vitória, ou -1
+indicando que não há estratégia vencedora.
+
+Ex.: 
+Entrada:                          Saída:
+3                                 3
+4                                 -1
+5                                 1
+6                                 2
+33                                1
+
