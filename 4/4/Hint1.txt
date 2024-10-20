@@ -1,0 +1,7 @@
+- Se as atividades forem ordenadas pelo horário de fim, qual atividade 
+  certamente está em uma seleção de cardinalidade máxima? Argumente que
+  tal escolha é correta.
+
+- Portanto, o algoritmo guloso deve, iterativamente, acrescentar à solução
+  a atividade prescrita na resposta anterior até que não hajam novas 
+  atividades a serem adicionadas.
